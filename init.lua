@@ -1,4 +1,5 @@
-local nativeSettings = GetMod("nativeSettings")
+-- local nativeSettings = GetMod("nativeSettings")
+local nativeSettings = require("ns")
 local mod = {
     ready = false
 }
