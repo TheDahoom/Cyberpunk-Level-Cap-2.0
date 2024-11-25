@@ -1,8 +1,3 @@
-local mod = {
-    ready = false
-}
-
-print('Test mod')
 registerForEvent('onInit', function()
     -- local nativeSettings = require("ns") --copied NativeSettings for definitions and autocomplete
 
@@ -22,9 +17,7 @@ registerForEvent('onInit', function()
     --add cyberware clamp option for fury
     --test installing mod while at max level
     --test Dont fear the reaper, if it crashes check the since theres probably a .valueToCheck that fails somewhere
-    mod.ready = true
 
-    print('mod is inititited')
+
+    print('levelcap 2.0 has initialized')
 end)
-
-return mod
